@@ -33,12 +33,12 @@
       font-size: 0.9rem;
     }
 
-
-
     .realisation {
       border-left: 4px solid #888;
       padding-left: 1rem;
       margin-bottom: 2rem;
+      transition: border-left-width 0.3 ease;
+      transition: box-shadow 0.3 ease;
     }
     .realisation a {
       color: #0066cc;
@@ -46,4 +46,9 @@
     }
     .realisation a:hover {
       text-decoration: underline;
+    }
+
+    .realisation:hover{
+        border-left-width: 8px;
+        box-shadow: 4px 0 0 0 #888;
     }
